@@ -8,5 +8,12 @@ internal class Program
 {
     private static void Main(string[] args)
     {        
+        IServiceProvider services = BuildServices();
+    }
+
+    private static IServiceProvider BuildServices()
+    {
+        IServiceCollection service = new ServiceCollection();
+        return service.BuildServiceProvider();
     }
 }
