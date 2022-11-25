@@ -55,7 +55,7 @@ internal class Program
         service.AddScoped<HalfDoorCountManipulator>();
         service.AddScoped<DoubleDoorCountManipulator>();
         service.AddScoped<ResetDefaultDoorCountManipulator>();
-        service.AddScoped<IDataReader, DemoDataReader>();
+        service.AddScoped<IDataReader, LocalStorageReader>();
         service.AddScoped<IDataWriter, LocalStorageWriter>();
 
         return service.BuildServiceProvider();
