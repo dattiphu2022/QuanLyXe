@@ -6,6 +6,11 @@ namespace QuanLyXe.Providers
 {
     internal class LocalStorageReader : DataReaderBase
     {
+        public override async Task<IEnumerable<IVehicle>> GetAllAsync()
+        {
+            IEnumerable<IVehicle> xes = new List<IVehicle>();
         
+            return xes;
+        }
     }
 }
