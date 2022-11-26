@@ -2,7 +2,7 @@
 
 namespace QuanLyXe.Domain.Interfaces
 {
-    internal interface IAppConfig
+    public interface IAppConfig
     {
         string DataFileName { get; }
         JsonSerializerSettings JsonSerializerSettings { get; }

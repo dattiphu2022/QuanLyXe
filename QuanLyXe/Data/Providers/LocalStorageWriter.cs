@@ -4,7 +4,7 @@ using QuanLyXe.Domain.Interfaces;
 
 namespace QuanLyXe.Providers
 {
-    internal class LocalStorageWriter : DataWriterBase
+    public class LocalStorageWriter : DataWriterBase
     {
         private readonly IAppConfig config;
 

@@ -2,7 +2,7 @@
 
 namespace QuanLyXe.Data.Manipulators
 {
-    internal class HalfDoorCountManipulator
+    public class HalfDoorCountManipulator
         : ManipulatorBase<IVehicle>
     {
         public override IVehicle Manipulate(IVehicle data)

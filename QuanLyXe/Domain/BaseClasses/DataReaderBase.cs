@@ -2,7 +2,7 @@
 
 namespace QuanLyXe.Domain.BaseClasses
 {
-    internal abstract class DataReaderBase : IDataReader
+    public abstract class DataReaderBase : IDataReader
     {
         public abstract Task<IEnumerable<IVehicle>> GetAllAsync();
         public IEnumerable<IVehicle> GetAll()

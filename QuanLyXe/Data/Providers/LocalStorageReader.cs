@@ -4,7 +4,7 @@ using QuanLyXe.Domain.Interfaces;
 
 namespace QuanLyXe.Providers
 {
-    internal class LocalStorageReader : DataReaderBase
+    public class LocalStorageReader : DataReaderBase
     {
         private readonly IAppConfig config;
 

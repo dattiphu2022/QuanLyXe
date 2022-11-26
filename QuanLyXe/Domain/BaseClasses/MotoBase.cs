@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-abstract class MotoBase : IVehicle
+public abstract class MotoBase : IVehicle
 {
     protected MotoBase(
         string name, 

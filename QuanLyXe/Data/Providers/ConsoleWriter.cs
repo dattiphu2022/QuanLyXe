@@ -4,7 +4,7 @@ using QuanLyXe.Domain.Interfaces;
 
 namespace QuanLyXe.Providers
 {
-    internal class ConsoleWriter : DataWriterBase
+    public class ConsoleWriter : DataWriterBase
     {
         public override bool Write(IEnumerable<IVehicle> datas)
         {

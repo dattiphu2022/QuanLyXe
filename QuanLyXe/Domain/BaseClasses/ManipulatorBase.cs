@@ -2,7 +2,7 @@
 
 namespace QuanLyXe.Domain.BaseClasses
 {
-    internal abstract class ManipulatorBase<T>
+    public abstract class ManipulatorBase<T>
         : IManipulator<T>
     {
         public abstract T Manipulate(T data);

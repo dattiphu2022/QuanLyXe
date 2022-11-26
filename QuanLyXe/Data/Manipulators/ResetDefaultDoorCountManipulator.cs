@@ -2,7 +2,7 @@
 
 namespace QuanLyXe.Data.Manipulators
 {
-    internal class ResetDefaultDoorCountManipulator
+    public class ResetDefaultDoorCountManipulator
         : ManipulatorBase<IVehicle>
     {
         public override IVehicle Manipulate(IVehicle data)

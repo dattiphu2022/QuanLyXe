@@ -4,7 +4,7 @@ using QuanLyXe.Data.Manipulators;
 using QuanLyXe.Domain.Interfaces;
 using QuanLyXe.Providers;
 
-internal class Program
+public class Program
 {
     private static void Main(string[] args)
     {

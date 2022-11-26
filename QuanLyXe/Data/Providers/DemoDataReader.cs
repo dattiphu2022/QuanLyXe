@@ -3,7 +3,7 @@ using System.Drawing;
 
 namespace QuanLyXe.Providers
 {
-    internal class DemoDataReader : DataReaderBase
+    public class DemoDataReader : DataReaderBase
     {
         public override Task<IEnumerable<IVehicle>> GetAllAsync()
         {

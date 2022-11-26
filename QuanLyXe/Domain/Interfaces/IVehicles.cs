@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-interface IVehicle
+public interface IVehicle
 {
     string VehicleName { get; set; }
     int SerialNumber { get; set; }

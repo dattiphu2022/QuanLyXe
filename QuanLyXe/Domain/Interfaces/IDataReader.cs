@@ -1,6 +1,6 @@
 ﻿namespace QuanLyXe.Domain.Interfaces
 {
-    internal interface IDataReader
+    public interface IDataReader
     {
         IEnumerable<IVehicle> GetAll();
         Task<IEnumerable<IVehicle>> GetAllAsync();
